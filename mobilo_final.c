@@ -1,7 +1,7 @@
 /*******************************************************
 This program was created by the CodeWizardAVR V3.29 
 Automatic Program Generator
-© Copyright 1998-2016 Pavel Haiduc, HP InfoTech s.r.l.
+Â© Copyright 1998-2016 Pavel Haiduc, HP InfoTech s.r.l.
 http://www.hpinfotech.com
 
 Project : 
@@ -198,27 +198,27 @@ while (1)
       // Place your code here 
        scanf("%d",&value);
       
-      if (PORTC.0==0 && PORTC.1==0 && PORTC.2==1 && PORTC.3==0)
+      if (PINC.0==0 && PINC.1==0 && PINC.2==1 && PINC.3==0)
       {
          forward();
       } 
       
-      else if(PORTC.0==0 && PORTC.1==1 && PORTC.2==0 && PORTC.3==0)
+      else if(PINC.0==0 && PINC.1==1 && PINC.2==0 && PINC.3==0)
       {
         left();
       } 
       
-      else if(PORTC.0==0 && PORTC.1==1 && PORTC.2==1 && PORTC.3==0)
+      else if(PINC.0==0 && PINC.1==1 && PINC.2==1 && PINC.3==0)
       {
        right();
       }
       
-      else if (PORTC.0==1 && PORTC.1==0 && PORTC.2==0 && PORTC.3==0)
+      else if (PINC.0==1 && PINC.1==0 && PINC.2==0 && PINC.3==0)
       {
         back();
       }
       
-      else if(PORTC.0==0 && PORTC.1==0 && PORTC.2==0 && PORTC.3==0)
+      else if(PINC.0==0 && PINC.1==0 && PINC.2==0 && PINC.3==0)
       { 
         Stop();
       }
